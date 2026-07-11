@@ -134,4 +134,4 @@ jobs:
         uses: SonarSource/sonarqube-quality-gate-action@master
         timeout-minutes: 5
         env:
-        SONAR_TOKEN: ${{ env.SONAR_TOKEN }}
+          SONAR_TOKEN: ${{ env.SONAR_TOKEN }}
