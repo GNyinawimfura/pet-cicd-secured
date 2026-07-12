@@ -135,3 +135,4 @@ jobs:
         timeout-minutes: 5
         env:
           SONAR_TOKEN: ${{ env.SONAR_TOKEN }}
+          SONAR_HOST-URL: https://sonarcloud.io
